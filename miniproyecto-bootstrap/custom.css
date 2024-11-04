@@ -1,0 +1,158 @@
+*{
+    background-color: #FFFFFF;
+}
+
+a{
+    text-decoration: none;
+    background-color: #6B8E23;
+    color: black;
+    transition: all 0.3s ease;
+    padding: 0.3%;
+    border-radius: 5px;
+}
+
+a:hover{
+    background-color: #FFA500;
+    transform: scale(1.1);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+ul{
+    list-style: none;
+    text-align: center;
+    background-color: #6B8E23;
+}
+
+li{
+    background-color: #6B8E23;
+    display: inline;
+    margin-left: 10vw;
+    margin-right: 10vw;
+}
+
+#navegador{
+    background-color: #6B8E23;
+    padding-top: 0.1vh;
+    padding-bottom: 0.1vh;
+    border: 1px solid #6B8E23;
+    border-radius: 15px;
+}
+
+.pie-pagina{
+    background-color: #6B8E23;
+    text-align: center; 
+    padding: 20px;
+    width: 100%;
+}
+
+.pie-pagina p{
+    background-color: #6B8E23;
+}
+
+#social{
+    background-color:#6B8E23;
+    margin: 0 10px;
+    text-decoration: none;
+    color: black;
+}
+
+#social:hover{
+    background-color: #FFA500;
+}
+
+.formulario-registro {
+    display: flex;
+    justify-content: center;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 40vw;
+    margin-bottom: 20vh;
+}
+
+h2 {
+    text-align: center;
+    color: #6B8E23;
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #333;
+}
+
+input, select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    background-color: #FFA500;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #FF4500;
+}
+
+#galeria .imagen {
+    width: 100%;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+#galeria img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+#galeria img:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.contact {
+    float: left;
+    overflow: hidden;
+    margin-left: 10vw;
+}
+
+.image-container {
+    position: relative;
+    width: 100%;
+}
+
+.image-container img {
+    width: 100%;
+    height: auto;
+}
+
+.image-container .text {
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
+    padding: 10px;
+    text-align: center;
+}
