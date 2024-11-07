@@ -1,11 +1,11 @@
-#carouselExampleAutoplaying {
-    max-height: 50vh;
-    max-width: 80vw;
-    overflow:hidden;
+.carousel-item img {
+    margin: 0 auto; /* Centra la imagen */
+    max-height: 40vh;
+    object-fit: cover; /* Ajusta la imagen al tamaño del contenedor sin deformarla */
 }
 
-.hero img {
-    max-height: 50vh;
-    max-width: 80vw;
-    overflow:hidden;
+.containerButton {
+    display: flex;
+    justify-content: center; /* Alineación horizontal */
+    align-items: center;     /* Alineación vertical */
 }
