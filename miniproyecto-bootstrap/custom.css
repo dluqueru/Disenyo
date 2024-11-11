@@ -1,63 +1,57 @@
-*{
-    background-color: #FFFFFF;
+body {
+    background-color: #ffffff;
 }
 
 a{
     text-decoration: none;
-    background-color: #6B8E23;
-    color: black;
+    background-color: #312B33;
+    color: #ffffff;
     transition: all 0.3s ease;
     padding: 0.3%;
     border-radius: 5px;
 }
 
 a:hover{
-    background-color: #FFA500;
+    background-color: #8235A0;
     transform: scale(1.1);
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
 
 ul{
     list-style: none;
-    text-align: center;
-    background-color: #6B8E23;
+    background-color: #312B33;
 }
 
 li{
-    background-color: #6B8E23;
-    display: inline;
-    margin-left: 10vw;
-    margin-right: 10vw;
+    background-color: #312B33;
 }
 
 #navegador{
-    background-color: #6B8E23;
-    padding-top: 0.1vh;
-    padding-bottom: 0.1vh;
-    border: 1px solid #6B8E23;
-    border-radius: 15px;
+    background-color: #312B33;
+    color: white;
+    border: 1px solid #312B33;
 }
 
 .pie-pagina{
-    background-color: #6B8E23;
+    background-color: #312B33;
     text-align: center; 
     padding: 20px;
     width: 100%;
 }
 
 .pie-pagina p{
-    background-color: #6B8E23;
+    background-color: #312B33;
 }
 
 #social{
-    background-color:#6B8E23;
+    background-color:#312B33;
     margin: 0 10px;
     text-decoration: none;
     color: black;
 }
 
 #social:hover{
-    background-color: #FFA500;
+    background-color: #8235A0;
 }
 
 .formulario-registro {
@@ -74,7 +68,7 @@ li{
 
 h2 {
     text-align: center;
-    color: #6B8E23;
+    color: #4E3D42;
     margin-bottom: 20px;
 }
 
@@ -96,7 +90,7 @@ input, select {
 button {
     width: 100%;
     padding: 12px;
-    background-color: #FFA500;
+    background-color: #8235A0;
     color: white;
     border: none;
     border-radius: 4px;
@@ -106,7 +100,7 @@ button {
 }
 
 button:hover {
-    background-color: #FF4500;
+    background-color: #8235A0;
 }
 
 #galeria .imagen {
