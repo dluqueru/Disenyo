@@ -1,11 +1,18 @@
 body {
-    background-color: #ffffff;
+    background-color: #F5F5F5;
+}
+
+#navegador {
+    background-color: #312B33;
+}
+
+.h2 {
+    color: #312B33;
 }
 
 a{
     text-decoration: none;
-    background-color: #312B33;
-    color: #ffffff;
+    color: #F5F5F5;
     transition: all 0.3s ease;
     padding: 0.3%;
     border-radius: 5px;
@@ -13,23 +20,12 @@ a{
 
 a:hover{
     background-color: #8235A0;
-    transform: scale(1.1);
-    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+    /* transform: scale(1.1);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3); */
 }
 
 ul{
     list-style: none;
-    background-color: #312B33;
-}
-
-li{
-    background-color: #312B33;
-}
-
-#navegador{
-    background-color: #312B33;
-    color: white;
-    border: 1px solid #312B33;
 }
 
 .pie-pagina{
@@ -43,16 +39,13 @@ li{
     background-color: #312B33;
 }
 
-#social{
+.social{
     background-color:#312B33;
     margin: 0 10px;
     text-decoration: none;
-    color: black;
+    color: #F5F5F5;
 }
 
-#social:hover{
-    background-color: #8235A0;
-}
 
 .formulario-registro {
     display: flex;
@@ -88,7 +81,7 @@ input, select {
 }
 
 button {
-    width: 100%;
+    width: 20%;
     padding: 12px;
     background-color: #8235A0;
     color: white;
@@ -100,6 +93,7 @@ button {
 }
 
 button:hover {
+    color: white;
     background-color: #8235A0;
 }
 
@@ -149,4 +143,18 @@ button:hover {
     text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
     padding: 10px;
     text-align: center;
+}
+
+.carousel-item {
+    max-height: 400px;
+}
+
+.img-fluid {
+    max-height: 400px;
+}
+
+.container {
+    display: flex;
+    text-align: center;
+    justify-content: center;
 }
