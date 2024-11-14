@@ -3,7 +3,7 @@ body {
 }
 
 #navegador {
-    background-color: #312B33;
+    background-color: #97c11e;
 }
 
 .h2 {
@@ -19,7 +19,9 @@ a{
 }
 
 a:hover{
-    background-color: #8235A0;
+    background-color: #97c11e;
+    text-decoration: none;
+    color: #F5F5F5;
     /* transform: scale(1.1);
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3); */
 }
@@ -83,7 +85,7 @@ input, select {
 button {
     width: 20%;
     padding: 12px;
-    background-color: #8235A0;
+    background-color: #97c11e;
     color: white;
     border: none;
     border-radius: 4px;
@@ -94,7 +96,7 @@ button {
 
 button:hover {
     color: white;
-    background-color: #8235A0;
+    background-color: #97c11e;
 }
 
 #galeria .imagen {
@@ -157,4 +159,14 @@ button:hover {
     display: flex;
     text-align: center;
     justify-content: center;
+}
+
+.categories:hover {
+    background-color: #97c11e;
+    color: #F5F5F5;
+    transform: scale(1.1);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    border-radius: 25px;
 }
