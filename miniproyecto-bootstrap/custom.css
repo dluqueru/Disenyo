@@ -94,11 +94,6 @@ button {
     transition: background-color 0.3s ease;
 }
 
-button:hover {
-    color: white;
-    background-color: #97c11e;
-}
-
 #galeria .imagen {
     width: 100%;
     overflow: hidden;
@@ -148,11 +143,11 @@ button:hover {
 }
 
 .carousel-item {
-    max-height: 400px;
+    max-height: 450px;
 }
 
 .img-fluid {
-    max-height: 400px;
+    max-height: 450px;
 }
 
 .container {
@@ -169,4 +164,92 @@ button:hover {
     cursor: pointer;
     transition: transform 0.3s ease;
     border-radius: 25px;
+}
+
+.cta1 {
+    background-color: #97c11e;
+    width: 60vw;
+    padding: 20px;
+    margin: 20px 0;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.cta2 {
+    background-color: #97c11e;
+    width: 85vw;
+    padding: 20px;
+    margin: 20px 0;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.cta-text1 {
+    font-size: 1.1rem;
+    color: #FFFFFF;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin: 0;
+}
+
+.cta-text2 {
+    font-size: 1.5rem;
+    color: #FFFFFF;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin: 0;
+}
+
+.cta1:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+    transition: all 0.3s ease;
+}
+
+.cta2:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+    transition: all 0.3s ease;
+}
+
+.card {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border: none;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+
+.card-body {
+    text-align: center;
+    background-color: #F5F5F5;
+}
+
+.card-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #312B33;
+}
+
+.btn {
+    color: #F5F5F5;
+    background-color: #97c11e;
+}
+
+.btn:hover {
+    color: #F5F5F5;
+    background-color: #ff8000;
 }
