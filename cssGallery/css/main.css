@@ -1,0 +1,48 @@
+body, html {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: "Montserrat";
+}
+
+h1 {
+  margin: 3rem;
+}
+
+main {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(19rem, 1fr));
+  cursor: pointer;
+}
+main .card {
+  transition: transform 1s;
+}
+main .card:nth-of-type(1) {
+  background: rgb(192, 192, 192);
+}
+main .card:nth-of-type(2) {
+  background: rgb(143, 143, 143);
+}
+main .card:nth-of-type(3) {
+  background: rgb(78, 78, 78);
+}
+main .card:nth-of-type(4) {
+  background: rgb(221, 221, 221);
+}
+main .card:nth-of-type(5) {
+  background: rgb(143, 143, 143);
+}
+main .card:nth-of-type(6) {
+  background: rgb(207, 207, 207);
+}
+main .card:hover {
+  transform: translateY(-20px);
+}
+main .card img {
+  width: 100%;
+}
+main .card .info {
+  padding: 1rem;
+}/*# sourceMappingURL=main.css.map */
