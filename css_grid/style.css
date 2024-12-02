@@ -1,0 +1,130 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+
+.grid-container {
+    height: auto;
+    min-height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr repeat(4, minmax(0, 22vw)) 1fr;
+    grid-template-rows: 80px 80px 80px 300px 400px 400px 80px 300px;
+    grid-template-areas: 
+        "nav1 nav1 nav1 nav1 nav1 nav1"
+        " . nav2 nav2 nav3 nav3 . "
+        " . elec1 elec1 . . . "
+        " . elec2 elec2 elec2 elec2 . "
+        " . gal1 gal1 gal2 gal2 . "
+        " . gal1 gal1 gal2 gal2 . "
+        " . sec1 sec1 . . . "
+        " . gal3 gal3 gal3 gal3 . ";
+    gap: 1vw;
+}
+
+.nav1 {
+    background-color: red;
+    color: white;
+    grid-area: nav1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav2 {
+    background-color: greenyellow;
+    color: white;
+    grid-area: nav2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav3 {
+    background-color: green;
+    color: white;
+    grid-area: nav3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.elec1 {
+    background-color: purple;
+    color: white;
+    grid-area: elec1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.elec2 {
+    background-color: palevioletred;
+    color: white;
+    grid-area: elec2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.gal1 {
+    background-color: blue;
+    color: white;
+    grid-area: gal1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.gal2 {
+    background-color: cyan;
+    color: white;
+    grid-area: gal2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sec1 {
+    background-color: gray;
+    color: white;
+    grid-area: sec1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.gal3 {
+    background-color: mediumslateblue;
+    color: white;
+    grid-area: gal3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* Breakpoint para móvil */
+@media screen and (max-width: 360px) {
+    .grid-container {
+        grid-template-columns: 1fr repeat(2, minmax(0, 43vw)) 1fr;
+        grid-template-areas: 
+            "nav1 nav1 nav1 nav1"
+            " . nav3 nav3 . "
+            " . nav2 nav2 . "
+            " . gal1 gal1 . "
+            " . gal1 gal1 . "
+            " . gal2 gal2 . "
+            " . gal2 gal2 . "
+            " . sec1 sec1 . "
+            " . gal3 gal3 . ";
+    }
+
+    .elec1 {
+        display: none;
+    }
+
+    .elec2 {
+        display: none;
+    }
+}
